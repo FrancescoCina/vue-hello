@@ -13,6 +13,8 @@
 <body>
     <div id="root">
         <h1 v-bind:class="fontSizeClass" :class="colorClass">Ciao mi chiamo {{name}} {{surname}}</h1>
+        <input v-model="howOldAreYou" type="text" placeholder="Quanti anni hai?">
+        <input type="text" v-model="favoriteFramework" placeholder="Qual è il tuo framework preferito?">
     </div>
     <script src="./js/script.js"></script>
 </body>

@@ -7,7 +7,9 @@ const root = new Vue({
     data: {
         name: "Francesco",
         surname: "Cina",
-        fontSizeClass: ".fs-5",
+        fontSizeClass: "fs-5",
         colorClass: "red",
+        howOldAreYou: "",
+        favoriteFramework: "",
     }
 })
