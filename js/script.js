@@ -11,5 +11,7 @@ const root = new Vue({
         colorClass: "red",
         howOldAreYou: "",
         favoriteFramework: "",
+        imgLink: "./img/Logo_Vue.png",
+        imgDescription: "Logo Vue.js",
     }
 })
