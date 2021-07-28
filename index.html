@@ -17,8 +17,13 @@
         <input type="text" v-model="favoriteFramework" placeholder="Qual è il tuo framework preferito?">
         <!-- <button @click="stopImg">Clicca Qui</button> -->
 
-        <input v-model="frameworkType" type="text" placeholder="Scegli il tuo framework preferito">
-        <button @click="changeImg">Clicca Qui</button>
+        <!-- <input v-model="frameworkType" type="text" placeholder="Scegli il tuo framework preferito"> -->
+        <select @change="changeImg" v-model="frameworkType" id="select-form">
+            <option value="vue">Vue</option>
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+        </select>
+        <!-- <button @click="changeImg">Clicca Qui</button> -->
 
         <img v-bind:src="imgLink" :alt="imgDescription">
 
